@@ -6,7 +6,23 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-start; /* Alinha ao topo */
- 
+  margin-bottom: -85px;
+}
+
+.main  {
+   display: flex; /* Ativa o flexbox */
+  flex-direction: flex; /* Organiza os elementos em linha */
+  align-items: center; /* Centraliza os filhos verticalmente */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  max-width: 1200px; /* Ajuste para permitir mais espaço horizontal */
+  margin: 0 auto; /* Centraliza a div no centro horizontal da página */
+  gap: 20px; /* Espaçamento entre os produtos */
+}
+
+.ad img {
+    max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
 }
 .products {
   position: relative;
@@ -51,40 +67,62 @@ header {
   display: flex;
   justify-content: left;
   align-items: flex-start; /* Alinha ao topo */
- margin-top:  -52px;
+ margin-top:  -145px;
  margin-left: -155px;
+ margin-bottom: -85px;
+}
+
+.main  {
+   display: flex; /* Ativa o flexbox */
+  flex-direction: row; /* Organiza os elementos em linha */
+  align-items: center; /* Centraliza os filhos verticalmente */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  max-width: 1200px; /* Ajuste para permitir mais espaço horizontal */
+  margin: 0 auto; /* Centraliza a div no centro horizontal da página */
+  gap: 20px; /* Espaçamento entre os produtos */
+}
+
+.ad img {
+    max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
+}
+
 }
 .products {
   position: relative;
   display: flex; /* Ativa o flexbox */
-  flex-direction: column; /* Organiza os elementos em coluna */
-  align-items: center; /* Centraliza horizontalmente os filhos */
-  justify-content: center; /* Centraliza verticalmente os filhos */
-  max-width: 400px; /* Ajuste para evitar limitações excessivas */
+  flex-direction: row; /* Organiza os elementos em linha */
+  align-items: center; /* Centraliza os filhos verticalmente */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  max-width: 800px; /* Ajuste para permitir mais espaço horizontal */
   margin: 0 auto; /* Centraliza a div no centro horizontal da página */
+  gap: 20px; /* Espaçamento entre os produtos */
 }
 
-.produto1 {
-  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
-  margin-bottom: 55px;
+.produto1, .produto2 {
+  width: 100%; /* Ajusta a largura conforme necessário */
+  margin: 15px;
 }
 
-.produto1 img {
+.produto1 img, .produto2 img {
   max-width: 100%; /* Garante que a imagem respeite os limites do pai */
   height: auto; /* Preserva as proporções da imagem */
   border-radius: 22px;
 }
 
-
-.produto2 {
-  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
-  
+.button {
+ width:  72px;
+ background: #eee;
+ color: #20272F;
+ border-radius: 12px;
+ border: none;
+ cursor: pointer;
+}
+.button:hover {
+   background: hsl(212, 15%, 62%);
+ color: #20272F;
 }
 
-.produto2 img {
-  max-width: 100%; /* Garante que a imagem respeite os limites do pai */
-  height: auto; /* Preserva as proporções da imagem */
-  border-radius: 22px;
-}
 }
 

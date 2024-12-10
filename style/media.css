@@ -1,0 +1,90 @@
+@media   (max-width: 1200px) {
+    /* Cabeçalho */
+header {
+  width: 100%;
+  padding: 20px 4%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinha ao topo */
+ 
+}
+.products {
+  position: relative;
+  display: flex; /* Ativa o flexbox */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente os filhos */
+  justify-content: center; /* Centraliza verticalmente os filhos */
+  max-width: 300px; /* Ajuste para evitar limitações excessivas */
+  margin: 0 auto; /* Centraliza a div no centro horizontal da página */
+}
+
+.produto1 {
+  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
+  margin-bottom: 55px;
+}
+
+.produto1 img {
+  max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
+}
+.produto2 {
+  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
+  
+}
+
+.produto2 img {
+  max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
+}
+
+}
+
+
+@media   (min-width: 1200px) { 
+
+    /* Cabeçalho */
+header {
+  width: 100%;
+  padding: 20px 4%;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start; /* Alinha ao topo */
+ margin-top:  -52px;
+ margin-left: -155px;
+}
+.products {
+  position: relative;
+  display: flex; /* Ativa o flexbox */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza horizontalmente os filhos */
+  justify-content: center; /* Centraliza verticalmente os filhos */
+  max-width: 400px; /* Ajuste para evitar limitações excessivas */
+  margin: 0 auto; /* Centraliza a div no centro horizontal da página */
+}
+
+.produto1 {
+  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
+  margin-bottom: 55px;
+}
+
+.produto1 img {
+  max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
+}
+
+
+.produto2 {
+  width: 100%; /* A largura ocupará o máximo permitido pelo pai */
+  
+}
+
+.produto2 img {
+  max-width: 100%; /* Garante que a imagem respeite os limites do pai */
+  height: auto; /* Preserva as proporções da imagem */
+  border-radius: 22px;
+}
+}
+
